@@ -1,0 +1,21 @@
+
+说明：
+1、此为storage目录的示例，具体的在各目录中；
+2、主要参考laravel的storage并进行了优化；
+3、ci为writable目录，对应为framework，但logs并未分出来；
+
+
+目录：
+app		应用生成的文件
+	public		默认目录
+data	数据
+	download	可下载文件
+	file		文件，这个暂留
+	upload		上传下来的文件
+framework		框架自带
+	cache		这个可能不能框架不一样
+	sessions	
+	testing		
+	views
+logs			日志
+	
