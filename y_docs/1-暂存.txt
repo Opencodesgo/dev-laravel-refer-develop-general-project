@@ -1,8 +1,0 @@
-
-学习url:
-
-Laravel-6 文档	168   （计划10月份学习完）
-
-Laravel 基础：https://laravelacademy.org/post/19920
-
-Laravel 从学徒到工匠：https://laravelacademy.org/books/laravel-from-appreciate-to-artisan
