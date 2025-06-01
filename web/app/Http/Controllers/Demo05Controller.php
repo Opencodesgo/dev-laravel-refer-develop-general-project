@@ -5,7 +5,7 @@
 
 namespace App\Http\Controllers;
 
-class Demo01Controller extends BaseController {
+class Demo05Controller extends BaseController {
 	
     public function index() {
 		echo 'demo index';
@@ -17,6 +17,7 @@ class Demo01Controller extends BaseController {
 		$this->$func();
 	}
 	
+	// localhost:9023/demo05/a1
 	public function a1() {
 		echo 'a1';
 	}

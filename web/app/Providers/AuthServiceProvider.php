@@ -1,4 +1,7 @@
 <?php
+/**
+ * App，提供者，权限服务提供者
+ */
 
 namespace App\Providers;
 
@@ -9,6 +12,7 @@ class AuthServiceProvider extends ServiceProvider
 {
     /**
      * The policy mappings for the application.
+     * 应用程序的策略映射
      *
      * @var array
      */
@@ -18,6 +22,7 @@ class AuthServiceProvider extends ServiceProvider
 
     /**
      * Register any authentication / authorization services.
+     * 注册任何验证服务
      *
      * @return void
      */

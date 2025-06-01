@@ -1,4 +1,7 @@
 <?php
+/**
+ * App，http中间件，修剪字符串
+ */
 
 namespace App\Http\Middleware;
 
@@ -8,6 +11,7 @@ class TrimStrings extends Middleware
 {
     /**
      * The names of the attributes that should not be trimmed.
+     * 不应修剪的属性的名称
      *
      * @var array
      */

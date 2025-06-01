@@ -1,4 +1,7 @@
 <?php
+/**
+ * App，http中间件，真实代理
+ */
 
 namespace App\Http\Middleware;
 
@@ -9,6 +12,7 @@ class TrustProxies extends Middleware
 {
     /**
      * The trusted proxies for this application.
+     * 应用程序的可信代理
      *
      * @var array|string
      */
@@ -16,6 +20,7 @@ class TrustProxies extends Middleware
 
     /**
      * The headers that should be used to detect proxies.
+     * 应该用来检测代理的头
      *
      * @var int
      */

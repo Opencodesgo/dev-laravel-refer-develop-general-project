@@ -1,4 +1,7 @@
 <?php
+/**
+ * 忘记密码控制器
+ */
 
 namespace App\Http\Controllers\Auth;
 
@@ -9,7 +12,7 @@ class ForgotPasswordController extends Controller
 {
     /*
     |--------------------------------------------------------------------------
-    | Password Reset Controller
+    | Password Reset Controller     密码重围控制器
     |--------------------------------------------------------------------------
     |
     | This controller is responsible for handling password reset emails and

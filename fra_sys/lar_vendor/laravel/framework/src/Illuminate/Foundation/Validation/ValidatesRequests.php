@@ -1,6 +1,6 @@
 <?php
 /**
- * 基础，验证请求特性
+ * 基础，验证请求
  */
 
 namespace Illuminate\Foundation\Validation;

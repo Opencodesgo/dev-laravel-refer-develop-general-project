@@ -1,4 +1,7 @@
 <?php
+/**
+ * App里http内核
+ */
 
 namespace App\Http;
 
@@ -8,6 +11,7 @@ class Kernel extends HttpKernel
 {
     /**
      * The application's global HTTP middleware stack.
+     * 应用程序的全局HTTP中间件堆栈
      *
      * These middleware are run during every request to your application.
      *
@@ -23,6 +27,7 @@ class Kernel extends HttpKernel
 
     /**
      * The application's route middleware groups.
+     * 路由中间件组
      *
      * @var array
      */
@@ -45,6 +50,7 @@ class Kernel extends HttpKernel
 
     /**
      * The application's route middleware.
+     * 路由中间件
      *
      * These middleware may be assigned to groups or used individually.
      *
@@ -65,6 +71,7 @@ class Kernel extends HttpKernel
 
     /**
      * The priority-sorted list of middleware.
+     * 中间件的优先排序列表
      *
      * This forces non-global middleware to always be in the given order.
      *

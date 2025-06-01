@@ -11,7 +11,7 @@ class PendingDispatch
 {
     /**
      * The job.
-	 * 作业
+	 * 任务
      *
      * @var mixed
      */
@@ -31,7 +31,7 @@ class PendingDispatch
 
     /**
      * Set the desired connection for the job.
-	 * 设置所需的连接为作业
+	 * 设置所需的连接为任务
      *
      * @param  string|null  $connection
      * @return $this
@@ -45,7 +45,7 @@ class PendingDispatch
 
     /**
      * Set the desired queue for the job.
-	 * 设置所需的队列为作业
+	 * 设置所需的队列为任务
      *
      * @param  string|null  $queue
      * @return $this

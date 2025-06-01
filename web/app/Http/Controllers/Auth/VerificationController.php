@@ -1,4 +1,7 @@
 <?php
+/**
+ * 验证控制器
+ */
 
 namespace App\Http\Controllers\Auth;
 
@@ -10,7 +13,7 @@ class VerificationController extends Controller
 {
     /*
     |--------------------------------------------------------------------------
-    | Email Verification Controller
+    | Email Verification Controller     邮件验证控制器
     |--------------------------------------------------------------------------
     |
     | This controller is responsible for handling email verification for any
@@ -23,6 +26,7 @@ class VerificationController extends Controller
 
     /**
      * Where to redirect users after verification.
+     * 在验证后重定向用户
      *
      * @var string
      */
@@ -30,6 +34,7 @@ class VerificationController extends Controller
 
     /**
      * Create a new controller instance.
+     * 创建一个新的控制器实例
      *
      * @return void
      */

@@ -4,7 +4,7 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Application Name
+    | Application Name  应用名称
     |--------------------------------------------------------------------------
     |
     | This value is the name of your application. This value is used when the
@@ -17,7 +17,7 @@ return [
 	
     /*
     |--------------------------------------------------------------------------
-    | Application Environment
+    | Application Environment   应用环境
     |--------------------------------------------------------------------------
     |
     | This value determines the "environment" your application is currently
@@ -30,7 +30,7 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Application Debug Mode
+    | Application Debug Mode    应用调试模式
     |--------------------------------------------------------------------------
     |
     | When your application is in debug mode, detailed error messages with
@@ -43,7 +43,7 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Application URL
+    | Application URL   应用URL
     |--------------------------------------------------------------------------
     |
     | This URL is used by the console to properly generate URLs when using
@@ -52,7 +52,7 @@ return [
     |
     */
 
-    'url' => env('APP_URL', 'http://localhost:8026'),
+    'url' => env('APP_URL', 'http://localhost:9023'),
 
     'asset_url' => env('ASSET_URL', null),
 

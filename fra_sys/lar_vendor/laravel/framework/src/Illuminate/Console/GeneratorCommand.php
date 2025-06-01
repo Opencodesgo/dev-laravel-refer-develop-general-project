@@ -1,6 +1,6 @@
 <?php
 /**
- * 控制台命令生成抽象类
+ * 控制台，命令生成器抽象类
  */
 
 namespace Illuminate\Console;
@@ -84,6 +84,7 @@ abstract class GeneratorCommand extends Command
 		// 然后，我们将构建类并进行适当的更换存根文件，以便它获得格式正确的命名空间和类名。
         $this->makeDirectory($path);
 
+        // 从存根文件构建后，写入类文件
         $this->files->put($path, $this->sortImports($this->buildClass($name)));
 
         $this->info($this->type.' created successfully.');

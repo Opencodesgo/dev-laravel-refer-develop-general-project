@@ -4,7 +4,7 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Default Filesystem Disk
+    | Default Filesystem Disk   默认文件系统磁盘为local
     |--------------------------------------------------------------------------
     |
     | Here you may specify the default filesystem disk that should be used
@@ -17,7 +17,7 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Default Cloud Filesystem Disk
+    | Default Cloud Filesystem Disk     默认云文件系统磁盘
     |--------------------------------------------------------------------------
     |
     | Many applications store files both locally and in the cloud. For this
@@ -30,7 +30,7 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Filesystem Disks
+    | Filesystem Disks  文件系统磁盘
     |--------------------------------------------------------------------------
     |
     | Here you may configure as many filesystem "disks" as you wish, and you
@@ -51,6 +51,30 @@ return [
         'public' => [
             'driver' => 'local',
             'root' => storage_path('app/public'),
+            'url' => env('APP_URL').'/storage',
+            'visibility' => 'public',
+        ],
+
+        // 自己添加Data目录
+        'data' => [
+            'driver' => 'local',
+            'root' => storage_path('app/data'),
+            'url' => env('APP_URL').'/storage',
+            'visibility' => 'public',
+        ],
+
+        // 自己添加下载目录
+        'download' => [
+            'driver' => 'local',
+            'root' => storage_path('app/download'),
+            'url' => env('APP_URL').'/storage',
+            'visibility' => 'public',
+        ],
+
+        // 自己添加upload目录
+        'upload' => [
+            'driver' => 'local',
+            'root' => storage_path('app/upload'),
             'url' => env('APP_URL').'/storage',
             'visibility' => 'public',
         ],

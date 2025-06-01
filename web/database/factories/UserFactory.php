@@ -8,7 +8,7 @@ use Illuminate\Support\Str;
 
 /*
 |--------------------------------------------------------------------------
-| Model Factories
+| Model Factories 	模型工厂
 |--------------------------------------------------------------------------
 |
 | This directory should contain each of the model factory definitions for

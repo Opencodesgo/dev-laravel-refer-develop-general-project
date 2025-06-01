@@ -6,7 +6,7 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Default Session Driver
+    | Default Session Driver    默认Session驱动
     |--------------------------------------------------------------------------
     |
     | This option controls the default session "driver" that will be used on
@@ -22,7 +22,7 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Session Lifetime
+    | Session Lifetime  Session生命周期
     |--------------------------------------------------------------------------
     |
     | Here you may specify the number of minutes that you wish the session
@@ -37,7 +37,7 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Session Encryption
+    | Session Encryption    Session加密
     |--------------------------------------------------------------------------
     |
     | This option allows you to easily specify that all of your session data
@@ -50,7 +50,7 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Session File Location
+    | Session File Location     Session文件位置
     |--------------------------------------------------------------------------
     |
     | When using the native session driver, we need a location where session
@@ -63,7 +63,7 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Session Database Connection
+    | Session Database Connection   Session数据库连接
     |--------------------------------------------------------------------------
     |
     | When using the "database" or "redis" session drivers, you may specify a
@@ -76,7 +76,7 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Session Database Table
+    | Session Database Table    Session数据库表
     |--------------------------------------------------------------------------
     |
     | When using the "database" session driver, you may specify the table we
@@ -89,7 +89,7 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Session Cache Store
+    | Session Cache Store   Session缓存存储
     |--------------------------------------------------------------------------
     |
     | When using the "apc", "memcached", or "dynamodb" session drivers you may
@@ -102,7 +102,7 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Session Sweeping Lottery
+    | Session Sweeping Lottery  Session清扫
     |--------------------------------------------------------------------------
     |
     | Some session drivers must manually sweep their storage location to get
@@ -115,7 +115,7 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Session Cookie Name
+    | Session Cookie Name   Session Cookie名
     |--------------------------------------------------------------------------
     |
     | Here you may change the name of the cookie used to identify a session
@@ -131,7 +131,7 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Session Cookie Path
+    | Session Cookie Path   Session Cookie路径
     |--------------------------------------------------------------------------
     |
     | The session cookie path determines the path for which the cookie will
@@ -144,7 +144,7 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Session Cookie Domain
+    | Session Cookie Domain     Session cookie域名
     |--------------------------------------------------------------------------
     |
     | Here you may change the domain of the cookie used to identify a session
@@ -157,7 +157,7 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | HTTPS Only Cookies
+    | HTTPS Only Cookies    HTTPS
     |--------------------------------------------------------------------------
     |
     | By setting this option to true, session cookies will only be sent back

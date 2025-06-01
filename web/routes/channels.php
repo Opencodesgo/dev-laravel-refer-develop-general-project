@@ -2,7 +2,7 @@
 
 /*
 |--------------------------------------------------------------------------
-| Broadcast Channels
+| Broadcast Channels 	广播频道
 |--------------------------------------------------------------------------
 |
 | Here you may register all of the event broadcasting channels that your

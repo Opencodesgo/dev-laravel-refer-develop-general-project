@@ -1,4 +1,7 @@
 <?php
+/**
+ * 确认密码控制器
+ */
 
 namespace App\Http\Controllers\Auth;
 
@@ -10,7 +13,7 @@ class ConfirmPasswordController extends Controller
 {
     /*
     |--------------------------------------------------------------------------
-    | Confirm Password Controller
+    | Confirm Password Controller   确认密码控制器
     |--------------------------------------------------------------------------
     |
     | This controller is responsible for handling password confirmations and
@@ -23,6 +26,7 @@ class ConfirmPasswordController extends Controller
 
     /**
      * Where to redirect users when the intended url fails.
+     * 在目标url失败时重定向用户
      *
      * @var string
      */
@@ -30,6 +34,7 @@ class ConfirmPasswordController extends Controller
 
     /**
      * Create a new controller instance.
+     * 创建一个新的控制器实例
      *
      * @return void
      */

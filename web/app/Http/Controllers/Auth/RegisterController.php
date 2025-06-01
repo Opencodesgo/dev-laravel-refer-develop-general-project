@@ -1,4 +1,7 @@
 <?php
+/**
+ * 注册器控制器
+ */
 
 namespace App\Http\Controllers\Auth;
 
@@ -13,7 +16,7 @@ class RegisterController extends Controller
 {
     /*
     |--------------------------------------------------------------------------
-    | Register Controller
+    | Register Controller   注册器控制器
     |--------------------------------------------------------------------------
     |
     | This controller handles the registration of new users as well as their
@@ -26,6 +29,7 @@ class RegisterController extends Controller
 
     /**
      * Where to redirect users after registration.
+     * 注册后重定向用户
      *
      * @var string
      */
@@ -33,6 +37,7 @@ class RegisterController extends Controller
 
     /**
      * Create a new controller instance.
+     * 创建一个新的控制器实例
      *
      * @return void
      */
@@ -43,6 +48,7 @@ class RegisterController extends Controller
 
     /**
      * Get a validator for an incoming registration request.
+     * 得到输入注册请求的验证器
      *
      * @param  array  $data
      * @return \Illuminate\Contracts\Validation\Validator
@@ -58,6 +64,7 @@ class RegisterController extends Controller
 
     /**
      * Create a new user instance after a valid registration.
+     * 在有效注册后创建一个新的用户实例
      *
      * @param  array  $data
      * @return \App\User

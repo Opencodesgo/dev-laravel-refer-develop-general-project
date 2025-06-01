@@ -1008,7 +1008,7 @@ if (! function_exists('validator')) {
 if (! function_exists('view')) {
     /**
      * Get the evaluated view contents for the given view.
-	 * 得到给定视图的求值视图内容
+	 * 得到给定视图的视图内容，提供给控制器调用
      *
      * @param  string|null  $view
      * @param  \Illuminate\Contracts\Support\Arrayable|array  $data

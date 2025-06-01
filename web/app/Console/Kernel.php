@@ -1,4 +1,7 @@
 <?php
+/**
+ * App，控制台，内核
+ */
 
 namespace App\Console;
 
@@ -9,6 +12,7 @@ class Kernel extends ConsoleKernel
 {
     /**
      * The Artisan commands provided by your application.
+     * 提供的Artisan命令
      *
      * @var array
      */
@@ -18,6 +22,7 @@ class Kernel extends ConsoleKernel
 
     /**
      * Define the application's command schedule.
+     * 定义应用的命令时间表
      *
      * @param  \Illuminate\Console\Scheduling\Schedule  $schedule
      * @return void
@@ -30,6 +35,7 @@ class Kernel extends ConsoleKernel
 
     /**
      * Register the commands for the application.
+     * 注册应用命令
      *
      * @return void
      */

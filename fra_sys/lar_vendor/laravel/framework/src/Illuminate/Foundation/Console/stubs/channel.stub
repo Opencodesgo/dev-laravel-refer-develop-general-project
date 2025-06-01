@@ -1,6 +1,6 @@
 <?php
 /**
- * 基础，虚拟类根文件
+ * 基础，需要自己修改注释
  */
 
 namespace DummyNamespace;
@@ -11,6 +11,7 @@ class DummyClass
 {
     /**
      * Create a new channel instance.
+     * 创建新的通道实例
      *
      * @return void
      */
