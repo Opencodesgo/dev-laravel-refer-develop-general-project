@@ -1,2 +1,5 @@
-﻿
-Laravel Version：v6.18.43
+Laravel Version: 6.20.44
+PHP Version: 7.2
+Start Date: 2024-12-25
+Date: 2019-09-04
+Version2: v1.0
